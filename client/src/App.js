@@ -1,5 +1,5 @@
 import "./App.css";
-import HeroSlideshow from "./Jessica's components/HeroSlideshow";
+import HeroSlideshow from "./HeroSlideshow";
 
 
 function App() {
