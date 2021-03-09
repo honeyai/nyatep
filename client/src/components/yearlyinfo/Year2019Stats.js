@@ -1,6 +1,6 @@
 function Year2019Stats() {
   return (
-    <div>
+    <div className="2019-yearly-stats-component">
       <h1>2019</h1>
     </div>
   )
