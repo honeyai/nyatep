@@ -2,7 +2,7 @@ import React from 'react';
 
 function YearlyBanner({ changeBannerView }) {
   return (
-    <div>
+    <div className="yearly-banner-component">
       <ul onClick={ changeBannerView }>
         <li id="year-2020" name="year-2020">
            2020
