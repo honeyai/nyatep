@@ -1,13 +1,20 @@
 import React from 'react';
 
-function YearlyBanner() {
+function YearlyBanner({ changeBannerView }) {
   return (
-    <div className="yearly-banner">
-      <ul>
-        <li>2021</li>
-        <li>2020</li>
-        <li>2019</li>
-        <li>2018</li>
+    <div>
+      <ul onClick={ changeBannerView }>
+        <li id="year-2020" name="year-2020">
+           2020
+        </li>
+
+        <li id="year-2019" name="year-2019">
+          2019
+        </li>
+
+        <li id="year-2018" name="year-2018">
+          2018
+        </li>
       </ul>
     </div>
   )
