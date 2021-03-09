@@ -6,6 +6,7 @@ import Year2019Stats from './components/Year2019Stats';
 import Year2018Stats from './components/Year2018Stats';
 
 function App() {
+
   const [bannerView, setBannerView] = useState('year-2020');
 
   function changeBannerView(e) {
@@ -13,7 +14,7 @@ function App() {
     setBannerView(name);
   }
 
-  function getBannerView() {
+  function getYearlyView() {
     switch(bannerView) {
       case 'year-2020':
         return <Year2020Stats />
@@ -29,7 +30,7 @@ function App() {
   return (
     <div>
       <YearlyBanner changeBannerView={ changeBannerView } />
-      { getBannerView() }
+      { getYearlyView() }
     </div>
   );
 }
