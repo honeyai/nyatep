@@ -1,11 +1,11 @@
 import "./App.css";
-import HeroSlideshow from "./Jessica's components/HeroSlideshow";
+import Navibar from "./Jessica's components/Navibar";
 
 
 function App() {
   return (
     <div className="App">
-      <HeroSlideshow />
+      <Navibar />
     </div>
   );
 }
