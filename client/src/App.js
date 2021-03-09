@@ -1,10 +1,11 @@
-import './App.css';
-import YearlyBanner from './components/YearlyBanner';
+import "./App.css";
+import HeroSlideshow from "./Jessica's components/HeroSlideshow";
+
 
 function App() {
   return (
-    <div>
-      <YearlyBanner />
+    <div className="App">
+      <HeroSlideshow />
     </div>
   );
 }
