@@ -8,14 +8,13 @@ import {
   CarouselCaption,
 } from "reactstrap";
 
-import albany1 from "./Images/port_of_albany_1.jpg";
-import albany2 from "./Images/port_of_albany_2.jpg";
-import albany3 from "./Images/port_of_albany_3.jpg";
-import albany4 from "./Images/port_of_albany_4.jpg";
-import albany5 from "./Images/port_of_albany_5.jpg";
+import albany1 from "../../Images/port_of_albany_1.jpg";
+import albany2 from "../../Images/port_of_albany_2.jpg";
+import albany3 from "../../Images/port_of_albany_3.jpg";
+import albany4 from "../../Images/port_of_albany_4.jpg";
+import albany5 from "../../Images/port_of_albany_5.jpg";
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./styles/heroSlideshow.css";
+import "./heroSlideshow.css";
 
 
 const HeroSlideshow = () => {

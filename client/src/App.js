@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Slideshow from './components/Slideshow';
-import YearlyBanner from './components/YearlyBanner';
+import HeroSlideshow from './components/HeroSlideShow/HeroSlideshow';
+import YearlyInfo from './components/yearlyinfo/YearlyInfo';
 
 function App() {
   return (
     <div className="App">
-      <Slideshow />
+      <HeroSlideshow />
     </div>
   );
 }
