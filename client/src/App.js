@@ -1,11 +1,11 @@
 import "./App.css";
-import Navibar from "./Jessica's components/Navibar";
+import Contact from "./Contact";
 
 
 function App() {
   return (
     <div className="App">
-      <Navibar />
+      <Contact />
     </div>
   );
 }
