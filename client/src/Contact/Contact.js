@@ -4,7 +4,6 @@ import Accordion from "./Accordion/Accordion.js";
 import "./contact.css";
 
 const Contact = () => {
-
   return (
     <div>
       <div className="contact__regionAccordions">
@@ -13,14 +12,12 @@ const Contact = () => {
             <Accordion
               key={key}
               title={item.Region}
-              text={item.contacts.map((item, key) => {
-                return (
-                  <div key={key}>
-                    <div>
-                      <div className="contact__contactinfo">
-                        <span className="contact__worksite">
-                          {item.site}
-                        </span>
+              text={
+                <div className="contact__container">
+                  {item.contacts.map((item, key) => {
+                    return (
+                      <div key={key} className="contact__contactinfo">
+                        <span className="contact__worksite">{item.site}</span>
                         <span className="contact__nameAndEmail">
                           {item.personToContact} {<br />} {item.email}
                         </span>
@@ -28,10 +25,10 @@ const Contact = () => {
                           {item.phone}
                         </span>
                       </div>
-                    </div>
-                  </div>
-                );
-              })}
+                    );
+                  })}
+                </div>
+              }
             />
           );
         })}
