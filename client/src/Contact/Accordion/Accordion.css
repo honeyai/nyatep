@@ -1,9 +1,9 @@
 .accordion-section {
   box-sizing: border-box;
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   width: 50%;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .accordion-title {
