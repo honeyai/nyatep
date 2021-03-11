@@ -1,0 +1,4 @@
+.contact__regionAccordions {
+  display: flex;
+  flex-flow: column wrap;
+}

@@ -1,8 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
-import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-import faChevronRight from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import "./Accordion.css";
 
-const Accordion = () => {
+const Accordion = ({text, title}) => {
   const [active, setActive] = useState(false);
   const contentRef = useRef(null);
 

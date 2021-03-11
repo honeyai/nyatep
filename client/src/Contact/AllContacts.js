@@ -1,6 +1,6 @@
 export const contactInfo = [
   {
-    Region: "Western",
+    Region: "Finger Lakes",
     contacts: [
       {
         site: "Livingston County Workforce Development",
@@ -25,6 +25,267 @@ export const contactInfo = [
         personToContact: "Christine Yonge",
         email: "christine.yonge@dfa.state.ny.us",
         phone: "3155365140"
+      },
+    ],
+  },
+  {
+    Region: "Western",
+    contacts: [
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: "",
+      },
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+    ],
+  },
+  {
+    Region: "Central",
+    contacts: [
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: "",
+      },
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+    ],
+  },
+  {
+    Region: "Southern",
+    contacts: [
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: "",
+      },
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+    ],
+  },
+  {
+    Region: "North",
+    contacts: [
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: "",
+      },
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+    ],
+  },
+  {
+    Region: "Mohawk Valley",
+    contacts: [
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: "",
+      },
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+    ],
+  },
+  {
+    Region: "Capital",
+    contacts: [
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: "",
+      },
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+    ],
+  },
+  {
+    Region: "Hudson Valley",
+    contacts: [
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: "",
+      },
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+    ],
+  },
+  {
+    Region: "New York City",
+    contacts: [
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: "",
+      },
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+    ],
+  },
+  {
+    Region: "Long Island",
+    contacts: [
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: "",
+      },
+      {
+        site: "",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
+      },
+      {
+        site:"",
+        personToContact: "",
+        email: "",
+        phone: ""
       },
     ],
   },
