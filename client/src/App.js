@@ -1,5 +1,5 @@
 import "./App.css";
-import Contact from "./Contact";
+import Contact from "./Contact/Contact";
 
 
 function App() {
