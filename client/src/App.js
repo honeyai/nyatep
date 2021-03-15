@@ -1,10 +1,10 @@
 import "./App.css";
-import MottoBanner from "./MottoBanner/MottoBanner";
+import RegionBanner from "./RegionBanners/RegionBanner";
 
 function App() {
   return (
     <div className="App">
-      <MottoBanner />
+      <RegionBanner region="Example"/>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-.banner__container {
+.regionBanner__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,15 +9,7 @@
   padding: 1rem;
 }
 
-.banner__decorativeLine {
-  margin-top: 1rem;
-  height: 0.15rem;
-  width: 40%;
-  background-color: var(--banner-color-accent);
-  
-}
-
-.banner__motto {
+.regionBanner__regionName {
   text-align: center;
   font-size: clamp(1rem, -0.875rem + 8.333vw, 4.5rem);
   font-weight: bold;
