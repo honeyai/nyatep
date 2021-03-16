@@ -1,5 +1,5 @@
 import "./App.css";
-import MottoBanner from "./MottoBanner/MottoBanner";
+import MottoBanner from "./components/MottoBanner/MottoBanner";
 
 function App() {
   return (
