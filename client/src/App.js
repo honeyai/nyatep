@@ -1,5 +1,5 @@
 import "./App.css";
-import PageDivider from "./PageDivider/PageDivider";
+import PageDivider from "./components/PageDivider/PageDivider";
 
 function App() {
   return (
