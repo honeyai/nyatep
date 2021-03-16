@@ -1,5 +1,5 @@
 import "./App.css";
-import LogoHero from "./LogoHero/LogoHero";
+import LogoHero from "./components/LogoHero/LogoHero";
 
 function App() {
   return (
