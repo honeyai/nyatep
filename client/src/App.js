@@ -1,5 +1,5 @@
 import "./App.css";
-import RegionBanner from "./RegionBanners/RegionBanner";
+import RegionBanner from "./components/RegionBanners/RegionBanner";
 
 function App() {
   return (
