@@ -1,11 +1,10 @@
 import "./App.css";
-import Contact from "./components/Contact/Contact";
-
+import PhotoBubbles from "./components/PhotoBubbles/PhotoBubbles";
 
 function App() {
   return (
     <div className="App">
-      <Contact />
+      <PhotoBubbles />
     </div>
   );
 }
