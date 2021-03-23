@@ -1,11 +1,10 @@
 import "./App.css";
-import Contact from "./components/Contact/Contact";
-
+import MottoBanner from "./components/MottoBanner/MottoBanner";
 
 function App() {
   return (
     <div className="App">
-      <Contact />
+      <MottoBanner />
     </div>
   );
 }
