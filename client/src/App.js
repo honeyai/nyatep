@@ -1,11 +1,11 @@
 import "./App.css";
-import RegionBanner from "./components/RegionBanners/RegionBanner";
+import PageDivider from "./components/PageDivider/PageDivider";
 
 
 function App() {
   return (
     <div className="App">
-      <RegionBanner region="Example"/>
+      <PageDivider />
     </div>
   );
 }
