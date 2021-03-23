@@ -1,11 +1,10 @@
 import "./App.css";
-import PageDivider from "./components/PageDivider/PageDivider";
-
+import LogoHero from "./components/LogoHero/LogoHero";
 
 function App() {
   return (
     <div className="App">
-      <PageDivider />
+      <LogoHero />
     </div>
   );
 }
