@@ -1,12 +1,11 @@
-import React from 'react';
-import './App.css';
-import HeroSlideshow from './components/HeroSlideShow/HeroSlideshow';
-import YearlyInfo from './components/yearlyinfo/YearlyInfo';
+import "./App.css";
+import Contact from "./components/Contact/Contact";
+
 
 function App() {
   return (
     <div className="App">
-      <HeroSlideshow />
+      <Contact />
     </div>
   );
 }
