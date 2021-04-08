@@ -1,10 +1,10 @@
 import "./App.css";
-import PhotoBubbles from "./components/PhotoBubbles/PhotoBubbles";
+import YearlyInfo from "./components/yearlyinfo/YearlyInfo";
 
 function App() {
   return (
     <div className="App">
-      <PhotoBubbles />
+      <YearlyInfo />
     </div>
   );
 }
