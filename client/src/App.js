@@ -1,10 +1,9 @@
-import "./App.css";
-import LogoHero from "./components/LogoHero/LogoHero";
+import React from 'react';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <LogoHero />
     </div>
   );
 }
